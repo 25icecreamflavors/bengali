@@ -1,0 +1,22 @@
+model_name: "ai4bharat/indicwav2vec-hindi"
+debug: True
+
+# Data path
+path_to_csv_with_indexes: "E:\\Project_python\\toxic_comments\\scr\\adding_data\\indexes.csv"
+path_to_csv_sentences: "E:\\Project_python\\toxic_comments\\scr\\adding_data\\normalized.csv"
+path_to_audio: "C:\\KAGGLE\\DATA_KAGGLE\\bengalspeech"
+
+# Params
+seed: 1771
+add_aug: False
+freeze_extractor: True
+epochs: 5
+num_workers: 16
+lr: 0.00005
+per_device_train_batch_size: 8
+per_device_eval_batch_size: 8
+
+# Train params
+path_save: "model_checkpoints/"
+name: ""
+
